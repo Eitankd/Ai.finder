@@ -1,0 +1,702 @@
+body { 
+  background: url("/images/i_need_a_background_image_for_a_site_it_needs_to.jpg") no-repeat center center fixed;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/bg4.jpg );
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #141414;
+    animation: backgroundGradient 10s infinite ease alternate;
+  }
+  /*
+  @keyframes backgroundGradient {
+    0% { background-color: #7c3636; }
+    50% { background-color: #3e703e; }
+    100% { background-color: #324963; }
+  }*/
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    animation: fadeInDown 1s;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    animation: fadeIn 1s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s;
+  }
+  
+  
+  nav ul li a:hover {
+    border-bottom-color: #333;
+  }
+
+nav{
+  border-bottom: 20%;
+  z-index: 1;
+}
+
+  #kfarfinder{
+    position: absolute;
+    left: 5%;
+    top: -1%;
+    z-index: 100;
+  }
+
+
+
+
+  nav ul li b {
+    text-decoration: none;
+    color: #333;
+    padding: 1px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.3s;
+  }
+  
+  nav ul li b.active,
+  nav ul li b{
+    border-bottom-color: #333;
+  }
+
+  
+
+
+  
+  main {
+    padding: 20px;
+    animation: fadeInUp 1s;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+  .Section {
+    margin-bottom: 20px;
+    background-color: #3f3232;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+    cursor: pointer;
+    height: 700px;
+    width: 350px;
+    text-align: center;
+    scroll-behavior: smooth;
+    margin-left: 10%;
+  
+  }
+  #description {
+    font-size: smaller ;
+  }
+
+
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    animation: fadeInUp 1s;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+
+
+
+
+  #section3{
+    left: 15%;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+  }
+  #section2{
+    left: 40%;
+    position: absolute;
+    max-width: fit-content;
+    z-index: 1;
+    top: 20%;
+  }
+  #section1{
+    left: 65%;
+    position: absolute;
+    max-width: fit-content;
+    z-index: 1;
+    top: 20%;
+  }
+
+.kaftor{
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  
+  
+}
+
+a { color: rgb(39, 39, 39) !important; }
+
+  
+ /* @media (max-width: 740px) {
+    #main1{
+      font-size: 0.8rem;
+    }
+   #kfarfinder{
+    z-index: -100;
+   }
+  }
+  @media (max-width: 1247px) {
+
+   #kfarfinder{
+    z-index: -100;
+   }
+  }
+  @media (min-width: 912px) {
+    #main1{
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 2000px) {
+    .Section{
+      margin-left: 9%;
+    }
+  }
+  @media (max-width: 1900px) {
+    .Section{
+      margin-left: 9%;
+    }
+  }
+  @media (max-width: 1800px) {
+    .Section{
+      margin-left: 7.6%;
+    }
+  }
+  @media (max-width: 1700px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }
+  @media (max-width: 1600px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }
+  @media (max-width: 1500px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }
+  @media (max-width: 1400px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }
+  @media (max-width: 1300px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }
+  @media (max-width: 1200px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }
+  @media (max-width: 1100px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }
+  @media (max-width: 1000px) {
+    .Section{
+      margin-left: 8.3%;
+    }
+  }*/
+
+  @property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+    }
+    
+    /*:root {
+    --clr-1: #052b2f;
+    --clr-2: #073438;
+    --clr-3: #0e4b50;
+    --clr-4: #2d8f85;
+    --clr-5: #62547c;
+    }
+    
+    /*body {
+    background: var(--clr-2);
+    
+    display: grid;
+    
+    }*/
+    
+    .card1 {
+      top: 5%;
+    height: 60vh;
+    aspect-ratio: 1 / 1.5;
+    background: var(--clr-1);
+    border-radius: 0.5rem;
+    
+    position: relative;
+    }
+    
+    .card1::before,
+    .card1::after {
+    content: "";
+    position: absolute;
+    inset: -0.5rem;
+    z-index: -1;
+    background: conic-gradient(
+      from var(--gradient-angle),
+      var(--clr-3),
+      var(--clr-4),
+      var(--clr-5),
+      var(--clr-4),
+      var(--clr-3)
+    );
+    border-radius: inherit;
+    animation: rotation 20s linear infinite;
+    }
+    
+    .card1::after {
+    filter: blur(3.5rem);
+    }
+    
+    @keyframes rotation {
+    0% {
+      --gradient-angle: 0deg;
+    }
+    100% {
+      --gradient-angle: 360deg;
+    }
+    }
+  
+    .card1 {
+    cursor: pointer;
+    }
+    
+    .card {
+    width: 100%;
+    max-width: 400px;
+    }
+
+
+    h2 {
+      color: #000;
+      position: relative;
+      left: 30%;  
+      top: -30%;
+      font-size: xx-large;
+      text-align: center;
+    }
+    p{
+      color: #000;
+      position: relative;
+      text-align: center;
+      left: -20%;
+      font-size:  larger;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    @media (max-width: 576px) {
+      button {
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+      }
+    }
+    .card1 {
+      margin: 0 20px;
+    }
+            
+
+
+
+
+
+
+
+
+
+    .card1{
+
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+      aspect-ratio: 1 / 1.5;
+      border-radius: 0.5rem;
+      position: relative;
+      cursor: pointer;
+      margin: 0 20px;
+      text-align: center;
+      font-style: var(--clr-2);
+      
+    }
+
+
+
+
+
+
+
+
+    @property --gradient-angle {
+      syntax: "<angle>";
+      initial-value: 0deg;
+      inherits: false;
+      }
+      
+      /*:root {
+      --clr-1: #052b2f;
+      --clr-2: #073438;
+      --clr-3: #0e4b50;
+      --clr-4: #2d8f85;
+      --clr-5: #62547c;
+      }
+      
+      /*body {
+      background: var(--clr-2);
+      
+      display: grid;
+      
+      }*/
+      
+      .card2 {
+        top: 5%;
+      height: 60vh;
+      aspect-ratio: 1 / 1.5;
+      background: var(--clr-1);
+      border-radius: 0.5rem;
+      
+      position: relative;
+      }
+      
+      .card2::before,
+      .card2::after {
+      content: "";
+      position: absolute;
+      inset: -0.5rem;
+      z-index: -1;
+      background: conic-gradient(
+        from var(--gradient-angle),
+        var(--clr-3),
+        var(--clr-4),
+        var(--clr-5),
+        var(--clr-4),
+        var(--clr-3)
+      );
+      border-radius: inherit;
+      animation: rotation 20s linear infinite;
+      }
+      
+      .card2::after {
+      filter: blur(3.5rem);
+      }
+      
+      @keyframes rotation {
+      0% {
+        --gradient-angle: 0deg;
+      }
+      100% {
+        --gradient-angle: 360deg;
+      }
+      }
+    
+      .card2 {
+      cursor: pointer;
+      }
+      
+      .card {
+      width: 100%;
+      max-width: 400px;
+      }
+  
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      @media (max-width: 576px) {
+        button {
+          width: 80px;
+          height: 80px;
+          margin: 5px;
+        }
+      }
+      .card2 {
+        margin: 0 20px;
+      }
+              
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      .card2{
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        aspect-ratio: 1 / 1.5;
+        border-radius: 0.5rem;
+        position: relative;
+        cursor: pointer;
+        margin: 0 20px;
+        text-align: center;
+        font-style: var(--clr-2);
+        
+      }
+
+
+
+
+
+
+
+
+
+
+      @property --gradient-angle {
+        syntax: "<angle>";
+        initial-value: 0deg;
+        inherits: false;
+        }
+        
+      /*  :root {
+        --clr-1: #052b2f;
+        --clr-2: #073438;
+        --clr-3: #0e4b50;
+        --clr-4: #2d8f85;
+        --clr-5: #62547c;
+        }*/
+        
+
+        
+        .card3 {
+          top: 5%;
+        height: 60vh;
+        aspect-ratio: 1 / 1.5;
+        background: var(--clr-1);
+        border-radius: 0.5rem;
+        
+        position: relative;
+        }
+        
+        .card3::before,
+        .card3::after {
+        content: "";
+        position: absolute;
+        inset: -0.5rem;
+        z-index: -1;
+        background: conic-gradient(
+          from var(--gradient-angle),
+          var(--clr-3),
+          var(--clr-4),
+          var(--clr-5),
+          var(--clr-4),
+          var(--clr-3)
+        );
+        border-radius: inherit;
+        animation: rotation 20s linear infinite;
+        }
+        
+        .card3::after {
+        filter: blur(3.5rem);
+        }
+        
+        @keyframes rotation {
+        0% {
+          --gradient-angle: 0deg;
+        }
+        100% {
+          --gradient-angle: 360deg;
+        }
+        }
+      
+        .card3 {
+        cursor: pointer;
+        }
+        
+        .card {
+        width: 100%;
+        max-width: 400px;
+        }
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+        @media (max-width: 576px) {
+          button {
+            width: 80px;
+            height: 80px;
+            margin: 5px;
+          }
+        }
+        .card3 {
+          margin: 0 20px;
+        }
+                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        .card3 {
+
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          
+          border-radius: 0.5rem;
+          position: relative;
+          cursor: pointer;
+          
+          
+          
+          
+        }
+
+
+
+
+
+
+   
+
+          
+          :root {
+          --clr-1: #052b2f;
+          --clr-2: #073438;
+          --clr-3: #0e4b50;
+          --clr-4: #2d8f85;
+          --clr-5: #62547c;
+          }
+          
+          body {
+          
+          
+          display: grid;
+          
+          }
